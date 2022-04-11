@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="../css/mediaqueries.css">
+    <link rel="shortcut icon" href="../assets/Logos/Logo.jpeg">
+    <title>Photestic</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img class="logo" src="../assets/Logos/Logo.jpeg">
+            <ul class="menu">
+                <li><a href="../pages/inicio.html">INICIO</a></li>
+                <li><a href="../pages/productos.html">PRODUCTOS</a></li>
+                <li><a href="../pages/precios.html">PRECIOS</a></li>
+                <li><a href="../pages/sobre mi.html">SOBRE MI</a></li>
+                <li><a href="../pages/contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    
+    <main>
+    <p>Encontrame en Instagram como: @photestic.stickers</p>
+
+    
+    <form action="procesar.php" method="post">
+
+        <fieldset>
+            <legend>Formulario de Contacto</legend>
+
+        <p>
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" required placeholder="Ingresa tu nombre">
+        </p>
+
+        <p>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" required placeholder="Ingresa tu apellido">
+        </p>
+
+        <p>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" placeholder="Ingresa tu edad">
+        </p>
+
+        <p>
+        <label for="email">Email</label>
+        <input type="email" name="email" required placeholder="Ingresa tu email">
+        </p>
+
+        <p>
+        <label for="celular">Celular</label>
+        <input type="tel" name="celular" required placeholder="Ingresa tu celular">
+        </p>
+
+        <p>
+        <h4>Si tenes algun pedido especial para tu compra, dejalo aca!</h4>
+        <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+        </p>
+
+        <!--Botones-->
+        <p>
+        <input type="submit" value="Enviar">
+        </p>
+
+        <p>
+        <input type="reset" value="Borrar formulario">
+        </p>
+
+        </fieldset>   
+    </form>
+    </main>
+
+    <footer class="piedepag">
+        <div class="logosfoot">
+            <img src="../assets/Logos/efectivo.png" alt="Efectivo" width="50px">
+            <img src="../assets/Logos/mercado pago.png" alt="Mercado Pago" width="50px">
+            <img src="../assets/Logos/transferencia bancaria.png" alt="Transferencia" width="50px">
+            <img src="../assets/Logos/instagram.png" alt="Instagram" width="40px">
+            <img src="../assets/Logos/whatsapp.png" alt="Whatsapp" width="50px">
+
+        </div>
+
+    </footer>
+</html>

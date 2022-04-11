@@ -1,0 +1,54 @@
+@media  screen and (max-width:600px) {
+    .navbar{
+        position:relative;
+    }
+
+    .navbar .manu-bar{
+        display: block;
+        grid-column: 8/9;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .navbar .menu{
+        display: none;
+    }
+
+    /*main*/
+    .principal .contenido{
+        grid-row: 3/7;
+    }
+
+    .principal h1{
+        font-size: 25px;
+    }
+
+    .principal p{
+        font-size: 12px;
+    }
+
+    .piedepag{
+        height: 110px;
+    }
+
+    .piedepag .logosfoot{
+        height: auto;
+    }
+
+    .fotosinspo{
+        display: flex;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .video{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        flex-direction: column;
+    }
+}
