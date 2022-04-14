@@ -11,7 +11,7 @@ body{
 .navbar{
     background-color:  #b6e295;
     display: grid;
-    grid-template-columns: repeat(8,1fr);
+    grid-template-columns: 1-12;
     align-items: center;
     background-image: linear-gradient(to right,#b6e295,#c195e2 );
 }
@@ -303,3 +303,14 @@ ul li{
 background-color: #b6e295;
 width: 150px;
 }
+
+/*bootstrap*/
+
+.slide{
+    margin-top: 10px;
+}
+
+.slide img{
+    height: 65vh;
+}
+
