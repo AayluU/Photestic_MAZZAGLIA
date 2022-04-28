@@ -1,3 +1,4 @@
+
 //anidacion
 .navbar{
     background-color:  #b6e295;
@@ -49,6 +50,7 @@
             font-weight: 300;
             text-align: center;
         }
+        
         .p{
             font-weight: 200;
         }
@@ -78,4 +80,31 @@
             }
     }
 
+//Extend
+.h3{
+    @extend .h1;
+}
 
+//Maps
+
+$paleta: (
+    "primario": violet,
+    "secundario": lightgreen,
+    "success": pink,
+);
+
+div{
+    background-color: map-get($map: $paleta,$key: "primario");
+    color:map-get($map:$paleta , $key:"secundario" );
+
+}
+
+//Mixins
+@mixin crearBordes {
+    border: solid 5px black;
+    border-radius: 8px;
+}
+
+.slide{
+    @include crearBordes();
+}

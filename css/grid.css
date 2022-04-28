@@ -37,7 +37,7 @@
   justify-content: center;
   justify-content: space-evenly;
 }
-.principal .h1 {
+.principal .h1, .principal .h3 {
   font-size: 40px;
   color: #c195e2;
   text-transform: uppercase;
@@ -72,6 +72,16 @@
   display: flex;
   justify-content: center;
   justify-content: space-around;
+}
+
+div {
+  background-color: violet;
+  color: lightgreen;
+}
+
+.slide {
+  border: solid 5px black;
+  border-radius: 8px;
 }
 
 /*# sourceMappingURL=grid.css.map */
